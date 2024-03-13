@@ -22,7 +22,7 @@ const userData = JSON.parse(localStorage.getItem("users"))
   function payKorapay() {
     const referenceValue = "PLA"+ Math.random() * 1000
     window.Korapay.initialize({
-        key: "pk_test_dnNs1J1QPgrDwCqWBYJPaYZQeD7XDFSbDHqV8BnV",
+        // key: "pk_test_dnNs1J1QPgrDwCqWBYJPaYZQeD7XDFSbDHqV8BnV",
         reference: referenceValue,
         amount: paymentPlans[selectedPlan], 
         currency: "NGN",
