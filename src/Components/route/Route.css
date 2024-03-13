@@ -1,0 +1,212 @@
+.settingsInput {
+  border: 1px solid #003482ff;
+}
+
+.settingsBtn {
+  width: 110px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.firm_p {
+  font-size: 19px;
+}
+
+.paymentHolder {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  /* border: 3px solid #003482ff; */
+  border-radius: 35px;
+  /* background-color: red; */
+}
+
+.paymentWrap {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paymentImageWrap {
+  width: 45%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.paymentImageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paymentInputWrap {
+  width: 48%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #003482ff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.paymentInputWrap h1 {
+  font-size: 20px;
+  color: #003482ff;
+  font-weight: 800;
+}
+
+.payplan {
+  width: 100%;
+  height: 25%;
+  margin-top: 2%;
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+}
+.select_plan {
+  margin-top: 2%;
+  outline: none;
+  border: 1px solid #003482ff;
+  height: 40px;
+  border-radius: 4px;
+}
+.payAmount {
+  width: 100%;
+  height: 20%;
+}
+.payBtn {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payBtn button {
+  width: 40%;
+  height: 40px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 3%;
+}
+
+.textAreaText {
+  width: 92.5%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 8%;
+  padding-left: 6px;
+  border-radius: 3px;
+  margin-left: 1%;
+  outline: none;
+}
+
+.clientBtn {
+  margin-left: 1%;
+}
+
+.amountInput {
+  margin-top: 2%;
+  outline: none;
+  border: 1px solid #003482ff;
+  height: 40px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.dashboardWrap {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dashboardLeft {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: center;
+  align-items: center;
+}
+.dashbaordRight {
+  width: 73%;
+  height: 90%;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.total {
+  width: 80%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #003482ff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.toplayer {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.lowerLayer {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway;
+}
+.lowerLayer h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #003482ff;
+}
+
+.quickAccess {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  color: white;
+  background-color: #e0fbfc;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.upcomingEvents {
+  width: 100%;
+}
+
+.upcomingEvents p {
+  font-size: 20px;
+}
+
+.toplayer h3 {
+  font-size: 20px;
+}

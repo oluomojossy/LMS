@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+aside {
+  &:not(a) {
+    @apply font-normal text-green-600 hover:border-b-2 focus:border-b-2 border-green-600;
+  }
+}
+
+aside {
+  position: fixed !important;
+  height: 100vh;
+}
+
+.main__area {
+  margin-left: 300px;
+  width: calc(100% - 300px);
+}
+
+.auth__title {
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.half-border {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.6em;
+  @apply font-bold;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    margin-top: 5px;
+    position: absolute;
+    @apply bg-blue-700 rounded;
+    z-index: 1;
+  }
+}
+
+.searchInput {
+  border: 1px solid rgb(5, 5, 28);
+  height: 35px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientInput {
+  border: 1px solid rgb(16, 16, 54);
+  width: 95%;
+}
+.clientInputs {
+  border: 1px solid rgb(16, 16, 54);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* background-color: red; */
+}
+
+.demo-app-main {
+  flex-grow: 1;
+  padding: 3em;
+}
+
+.fc {
+  /* the calendar root */
+  max-width: 1400px;
+  margin: 0 auto;
+  /* background-color: blue; */
+}
+
+.demo-app {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+
+.demo-app-sidebar-section {
+  padding: 2em;
+}

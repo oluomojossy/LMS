@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+
+.deleteOptionHolder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 99999;
+    backdrop-filter: blur(5px);
+    transition : all 350mm  ease-in;
+}
+
+.deleteOptionWrapper{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F4F4F4; */
+}
+
+.kard{
+    width: 50%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    animation: backInUp;
+    animation-duration: 2s;
+}
+
+.Texts{
+
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+}
+
+.Texts p{
+    color: #003482ff;
+    font-family: "poppins";
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.clicks{
+    width: 85%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.clicky{
+    width: 22%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #003382;
+    background-color: white;
+    border-radius: 0%;
+}
+.clicky p{
+    font-size: 14px;
+}
+
+.click{
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+}
+
+.click p{
+    font-size: 14px;
+    color: white;
+}
+
+
+

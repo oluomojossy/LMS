@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', helvetica, "sans-serif", arial;
+}
+
+.footerHolder{
+    width: 100%;
+    height: 30vh;
+    background-color: #f7f5f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.footerWrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.contact{
+    width: 60%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003482ff;
+    border-radius: 10px;
+    position: absolute;
+    top: -15%;
+}
+
+.leftText{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.leftText h1{
+    font-size: 18px;
+    color: white;
+    font-family: 'poppins';
+}
+.leftText p{
+    font-size: 14px;
+    color: white;
+    font-family: 'poppins'
+}
+
+.conts{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
+
+.conts button{
+    width: 120px;
+    height: 35px;
+    font-family: "poppins";
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    color: white !important;
+    border-radius: 50px;
+    border-color: black !important;
+    transition: all 0.3s ease 0s;
+    background-color: black !important;
+
+ }
+
+ .body{
+    width: 69%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 2%;
+    
+ }
+
+ .bodyLeft{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    margin-top: 4%;
+    margin-right: 2%;
+ }
+
+ .logss{
+      width: 100%;
+      height: 40%;
+      display: flex;
+     
+ }
+
+ .logss img{
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
+
+ }
+
+ .render{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+ }
+ .render p{
+    font-size: 12px;
+    font-family: "poppins";
+    color: #003482ff;
+ }
+
+ .bodyRight{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 8%;
+ }
+
+ .renders{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+ }
+
+ .renders p{
+    font-size: 12px; 
+    font-family: "poppins";
+    color: #003482ff;
+ }
+
+ .renders h6{
+    font-size: 13px; 
+    font-family: "poppins";
+    color: #003482ff;
+ }
+
+ .renderr{
+    width: 20%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 2%;
+
+ }
+ .text h6{
+    font-size: 13px; 
+    font-family: "poppins";
+    color: #003482ff;
+ }
+
+ .social{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    gap: 8px;
+ }
+ .social img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+ }
+
+
+
+
+ 
+
+ @media (min-width: 768px) and (max-width: 991px) {
+   .footerHolder{
+      width: 107%;
+      height: 50vh;
+     }
+
+     .contact{
+      width: 80%;
+      top: -10%;
+      height: 28%;
+   }
+
+   .body{
+      width: 100%;
+      margin-top: 30px;
+     }
+
+     .renderr{
+      margin-bottom: 5%; 
+     }
+     
+     .social img{
+      width: 50%;
+      height: 50%;
+      object-fit: contain;
+     }
+.social{
+   color: #003482ff;
+}
+
+ }
+  
+@media (max-width: 767px){
+
+   .footerHolder{
+    width: 100%;
+    height: 50vh;
+   }
+   .contact{
+      width: 95%;
+      top: -10%;
+      height: 28%;
+   }
+
+   .leftText h1{
+      font-size: 14px;
+   }
+
+   .leftText{
+      width: 60%;
+      gap: 2px;
+  }
+ 
+  .leftText p{
+      font-size: 10px;
+      color: white;
+      font-family: 'poppins'
+  }
+  
+   .conts{ 
+      width: 15%;
+      height: 100%;
+      
+  }
+  
+  .conts button{ 
+      width: 85px;
+      height: 35px;
+      font-family: "poppins";
+      font-size: 14px;
+      background-color: white;
+      color: black;
+      margin-right: 15px;
+  }
+  
+  .body{
+   width: 100%;
+   margin-top: 50px;
+   flex-wrap: wrap;
+   
+  }
+  .bodyLeft{
+   width: 45%;
+   height: 60%;
+  }
+
+  .bodyRight{
+   width: 53%;
+   height: 60%;
+  }
+
+  .render p{
+   font-size: 13px;
+  }
+
+  .renders{
+   width: 60%
+  }
+
+  .renders p{
+   font-size: 11px;
+  }
+
+  .renders h6{
+   font-size: 11px;
+  }
+
+  .renderr{
+   width: 60%;
+   height:50%;
+  }
+
+  .social img{
+   width: 50%;
+   height: 50%;
+   object-fit: contain;
+   color:#003482ff;
+  }
+}
+
+ 

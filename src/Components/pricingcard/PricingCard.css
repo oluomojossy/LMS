@@ -1,0 +1,113 @@
+.card {
+  width: 20%;
+  height: 450px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 20px;
+}
+.features {
+  width: 100%;
+  height: 130px;
+  /* background: green; */
+  margin-bottom: 20px;
+}
+.features-icon {
+  width: 100%;
+  height: max-content;
+  /* background: blue; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.features-icon p {
+  font-size: 15px;
+}
+.plan {
+  margin-bottom: 25px;
+}
+.best {
+  color: #242424c9;
+  font-size: 14px;
+}
+.free {
+  font-size: 30px;
+  font-weight: 500;
+  color: #242424d3;
+}
+.amount {
+  margin-bottom: 25px;
+}
+
+.peruser {
+  color: #242424c9;
+  font-size: 14px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 500;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.card button {
+  width: 230px;
+  height: 40px;
+  background: #003382;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width:884px){
+ .card{
+  width: 40%;
+ }
+
+ }
+@media screen and (max-width:834px){
+ .card{
+  width: 40%;
+ }
+
+ }
+@media screen and (max-width:820px){
+ .card{
+  width: 40%;
+ }
+
+ }
+@media screen and (max-width:800px){
+ .card{
+  width: 40%;
+ }
+
+ }
+
+@media screen and (max-width: 428px) {
+  .card {
+    width: 70%;
+  }
+  .card button {
+    width: 200px;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    width: 75%;
+    height: 520px;
+  }
+  .card button {
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 70px;
+    font-size: 16px;
+  }
+}

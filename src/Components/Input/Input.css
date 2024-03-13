@@ -1,0 +1,27 @@
+input {
+    width: 80%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 5px;
+    /* border-bottom: 1px solid grey; */
+    color: black;
+    font-size: 14px;
+  }
+  
+.Label p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      color: black;
+  }
+  
+  .inpField {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 5px;
+  }
+

@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.whyHolder{
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f5ff;
+}
+
+.whyHolderWrap{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whyLeft{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Poppins";
+}
+
+.whyleftWrapper{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Poppins";
+}
+
+.whyLeft h1{
+    font-size: 60px;
+    font-family: "Poppins";
+    color: #003482ff;
+}
+
+.whyLeft p{
+    color: #606060;
+    font-size: 15px;
+    width: 80%;
+}
+
+.whyRight{
+    width: 40%;
+    height: 100%;
+}
+
+
+.whyRight img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.storyHolder{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.stroyHolderWrap{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stroyLeft{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.divv{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divv p{
+    font-size: 14px;
+    
+}
+
+.stroyLeft img{
+    width:  80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.storyRight{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.storyRight h1{
+    font-size: 40px;
+    color: #003482ff;
+}
+
+.storyRight p{
+    font-size: 14px;
+    color: #606060;
+    
+}
+
+.storie{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    gap: 10px;
+}
+
+.stories button{
+       width: 25%;
+       height: 45px;
+       font-size: 20px;
+       border-radius: 4px;
+       background-color: #003482ff;
+       color: white;
+       border: none;
+
+}
+button:hover {
+    color: white !important;
+    border-radius: 50px;
+    border-color: black !important;
+    transition: all 0.3s ease 0s;
+    background-color: black !important;
+    }
+
+
+
+.csrHolder{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csrHolderWrap{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stroyLeftt{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.stroyLeftt h1{
+    font-size: 40px;
+    color: #003482ff;
+    padding: 10px;
+}
+.stroyLeftt img{
+    width:  70%;
+    height: 70%;
+}
+
+.storyRightt{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.storyRightt h1{
+    font-size: 40px;
+    color: #003482ff;
+}
+
+.storyRightt p{
+    font-size: 14px;
+    color: #606060;
+}
+
+.storie{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    gap: 10px;
+}
+
+
+@media screen and ( max-width:800px){
+    .whyHolderWrap{
+        flex-direction:column-reverse;
+    }
+    .whyLeft{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    
+    .whyHolder{
+        height: 850px;
+        margin-bottom: 30px;
+    }
+    .whyRight {
+        width: 80%;
+    }
+    .whyleftWrapper{
+        margin-top: 10px;
+    }
+    .whyleftWrapper h1{
+        font-size: 30px;
+    }
+    .whyleftWrapper p{
+        font-size: 20px;
+    }
+    .whyleftWrapper p:first-child{
+        margin-left: -10px;
+    }
+    
+    .storyHolder{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .stroyHolderWrap{
+        width: 100%;
+        flex-direction: column;
+    }
+    .storyRight{
+        width: 100%;
+    }
+    .storyRight h1{
+        margin-top: 80px;
+        margin-left: 27px;
+        font-size: 30px;
+    }
+    .storyRightt p{
+        font-size: 20px;
+    }
+    .storyRightt h3{
+        font-size: 24px;
+    }
+    .stroyLeftt{
+        width: 100%;
+        margin-top: -150px;
+        /* margin-bottom: 50px; */
+    }
+    .storie{
+        width: 100%;
+    }
+    .storie h2{
+        margin-left: 27px;
+        margin-top: -15px;
+    }
+    .storie p{
+        margin-left: 27px;
+        padding-right: 10px;
+        font-size: 20px;
+        margin-bottom: -30px;
+    }
+    .stories button{
+        width: 30%;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 27px;
+        margin-top: 20px;
+    }
+    .csrHolderWrap{
+        flex-direction: column;
+    }
+    .storyRightt{
+        width: 100%;
+        height: 55%;
+        margin-top: -150px;
+    }
+    .stroyLeftt h1 {
+        font-size: 30px;
+        margin-bottom: -80px;
+    }
+    .csrHolder{
+        margin-bottom: 70px;
+    }
+}
+
+
+
+@media screen and ( max-width:428px){
+    .whyHolderWrap{
+        flex-direction:column-reverse;
+    }
+    .whyLeft{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    
+    .whyHolder{
+        height: 800px;
+        margin-bottom: 30px;
+    }
+    .whyRight {
+        width: 80%;
+    }
+    .whyleftWrapper{
+        margin-top: 10px;
+    }
+    .whyleftWrapper h1{
+        font-size: 24px;
+    }
+    .whyleftWrapper p{
+        font-size: 14px;
+    }
+    .whyleftWrapper p:first-child{
+        margin-left: -10px;
+    }
+    
+    .storyHolder{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .stroyHolderWrap{
+        width: 100%;
+        flex-direction: column;
+    }
+    .storyRight{
+        width: 100%;
+    }
+    .storyRight h1{
+        margin-top: 80px;
+        margin-left: 27px;
+        font-size: 24px;
+    }
+    .stroyLeftt{
+        width: 100%;
+        margin-top: -150px;
+        /* margin-bottom: 50px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .storie{
+        width: 100%;
+    }
+    .storie h2{
+        margin-left: 27px;
+        margin-top: -15px;
+    }
+    .storie p{
+        margin-left: 27px;
+        padding-right: 10px;
+        font-size: 12px;
+        margin-bottom: -30px;
+    }
+    .stories button{
+        width: 35%;
+        height: 35px;
+        font-size: 14px;
+        margin-left: 27px;
+        margin-top: 20px;
+    }
+    .csrHolderWrap{
+        flex-direction: column;
+    }
+    .storyRightt{
+        width: 100%;
+        height: 55%;
+        margin-top: -150px;
+    }
+    .storyRightt{
+        font-size: 12px;
+    }
+    .stroyLeftt h1 {
+        font-size: 24px;
+        margin-bottom: -80px;
+    }
+    .csrHolder{
+        margin-bottom: 70px;
+    }
+}
+
+
+
+
+@media screen and ( max-width:320px){
+.whyHolderWrap{
+    flex-direction:column-reverse;
+}
+.whyLeft{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.whyHolder{
+    height: 800px;
+    margin-bottom: 30px;
+}
+.whyRight {
+    width: 80%;
+}
+.whyleftWrapper{
+    margin-top: 10px;
+}
+.whyleftWrapper h1{
+    font-size: 24px;
+}
+.whyleftWrapper p{
+    font-size: 14px;
+}
+.whyleftWrapper p:first-child{
+    margin-left: -10px;
+}
+
+.storyHolder{
+    width: 100%;
+    margin-bottom: 200px;
+}
+.stroyHolderWrap{
+    width: 100%;
+    flex-direction: column;
+}
+.storyRight{
+    width: 100%;
+}
+.storyRight h1{
+    margin-top: 80px;
+    margin-left: 27px;
+    font-size: 24px;
+}
+.stroyLeftt{
+    width: 100%;
+    margin-top: -80px;
+}
+.storie{
+    width: 100%;
+}
+.storie h2{
+    margin-left: 27px;
+    margin-top: -15px;
+}
+.storie p{
+    margin-left: 27px;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-bottom: -30px;
+}
+.stories button{
+    width: 35%;
+    height: 35px;
+    font-size: 14px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.csrHolderWrap{
+    flex-direction: column;
+}
+.storyRightt{
+    width: 100%;
+}
+.stroyLeftt h1 {
+    font-size: 24px;
+    margin-bottom: -30px;
+}
+.csrHolder{
+    margin-bottom: 70px;
+}
+}
